@@ -22,10 +22,16 @@ Thumbs.db # Windows
 modules/.bkp/
 # Mengabaikan folder .bkp di dalam overlay/
 overlay/.bkp/
+assets/fonts
+
+# Mengabaikan semua file dengan ekstensi .bak di mana pun
+*.bak
 
 # Folder output video yang dihasilkan aplikasi
 # Mengabaikan seluruh isi folder output/
 output/
+assets/media
+assets/font
 
 # File-file konfigurasi dan cache yang dihasilkan/dimodifikasi aplikasi
 # config.json biasanya dimodifikasi oleh aplikasi dan mungkin berisi kunci API
@@ -35,6 +41,6 @@ overlay/trend_cache.json
 # File caption yang dihasilkan (JSON dan TXT)
 overlay/caption.json
 overlay/caption.txt
-# Mengabaikan file sementara seperti trend_cache.json_willdelete
+# Mengabaikan file sementara seperti trend_cache.json_willdelete dan .txt_willdelete
 overlay/*.json_willdelete
 overlay/*.txt_willdelete

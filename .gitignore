@@ -1,0 +1,40 @@
+# Git ignore file untuk proyek ViGE
+
+# Python bytecode dan cache
+# Mengabaikan folder __pycache__ di mana pun ia muncul
+__pycache__/
+# Mengabaikan semua file Python yang dikompilasi
+*.pyc
+
+# Virtual environment (jika Anda membuat satu di root proyek)
+# Jika Anda menggunakan venv/ atau .venv/ di root proyek, tambahkan ini
+venv/
+.venv/
+
+# File-file yang dihasilkan oleh sistem operasi
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Folder backup yang Anda identifikasi
+# Mengabaikan folder .bkp di root proyek
+.bkp/
+# Mengabaikan folder .bkp di dalam modules/
+modules/.bkp/
+# Mengabaikan folder .bkp di dalam overlay/
+overlay/.bkp/
+
+# Folder output video yang dihasilkan aplikasi
+# Mengabaikan seluruh isi folder output/
+output/
+
+# File-file konfigurasi dan cache yang dihasilkan/dimodifikasi aplikasi
+# config.json biasanya dimodifikasi oleh aplikasi dan mungkin berisi kunci API
+config.json
+# File cache tren
+overlay/trend_cache.json
+# File caption yang dihasilkan (JSON dan TXT)
+overlay/caption.json
+overlay/caption.txt
+# Mengabaikan file sementara seperti trend_cache.json_willdelete
+overlay/*.json_willdelete
+overlay/*.txt_willdelete

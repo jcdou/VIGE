@@ -1,0 +1,31 @@
+{
+    "WRAP_WIDTH": 28,
+    "MEDIA_DIR": "assets/media",
+    "MUSIC_DIR": "assets/music",
+    "FONT_DIR": "assets/font",
+    "OUTPUT_DIR": "output",
+    "OVERLAY_DIR": "overlay",
+    "CAPTION_JSON": "overlay/caption.json",
+    "CAPTION_TXT": "overlay/caption.txt",
+    "TREND_TXT": "overlay/trend.txt",
+    "TREND_CACHE_DURATION": 24,
+    "TREND_CACHE_FILE": "trend_cache.json",
+    "SOCIAL_PLATFORMS": [
+        "tiktok",
+        "youtube",
+        "rss"
+    ],
+    "MAX_API_CALLS_PER_HOUR": 60,
+    "FALLBACK_PRIORITY": [
+        "rss",
+        "tiktok",
+        "youtube"
+    ],
+    "TREND_LIMIT": 10,
+    "RSS_FEEDS": [
+        "https://news.google.com/rss?hl=id&gl=ID&ceid=ID:id",
+        "https://feeds.feedburner.com/beritaterkini",
+        "https://rss.detik.com/index.php/tren"
+    ],
+    "YOUTUBE_API_KEY": "AIzaSyBqCldqAlXhHMJFkznDA5l6JRrcCKAjkDQ"
+}
